@@ -1,6 +1,4 @@
-# JMinNSCLC
-
-Circulating tumor DNA as markers of dynamic recurrence risk and adjuvant chemotherapy benefit in resected non-small cell lung cancer
+# Circulating tumor DNA as markers of dynamic recurrence risk and adjuvant chemotherapy benefit in resected non-small cell lung cancer
 
 load_requred_package.R -- To install packages used in this analysis
 
