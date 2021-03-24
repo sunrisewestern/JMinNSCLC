@@ -1,6 +1,8 @@
 # Circulating tumor DNA as markers of dynamic recurrence risk and adjuvant chemotherapy benefit in resected non-small cell lung cancer
 
 ## run 
+All analysis are running under R version 4.0.2
+
 load_requred_package.R -- To install packages used in this analysis
 
 run_joint_model_analysis.R -- To run the model construction and evaluation analysis.
