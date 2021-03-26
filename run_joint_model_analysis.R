@@ -19,6 +19,8 @@ source("function/reliability_diagram.R")
 #### ---- Run all analysese scripts ---- ####
 
 mydata = read.csv("data/Joint_model_data.csv") %>% mutate(T_stage = as.factor(T_stage),TP53 = as.factor(TP53))
+mydata$logAF = log(mydata$meanAF+1e-6)-log(1e-6)
+
 mydata.id = mydata[which(!duplicated(mydata$PatientID)), ]
 mydata.id.AD =  subset(mydata.id,PathologicalType == 'AD')
 
